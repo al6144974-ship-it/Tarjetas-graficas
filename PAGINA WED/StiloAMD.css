@@ -1,0 +1,141 @@
+/* RESET GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/* CUERPO */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgb(216, 85, 85);
+}
+
+/* HEADER */
+header{
+    background: linear-gradient(135deg,#be5e0a 0%, #f19443 100%);
+    color: #dbdffa;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+header h1{
+    font-size: 3rem;
+}
+
+header p{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* CONTENEDOR */
+.container{
+    max-width: 900px;
+    margin: 2.5rem auto;
+    padding: 0 1.5rem;
+}
+
+/* SECCIÓN */
+section{
+    background-color: rgb(239, 204, 115);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+    transition: all 0.3s ease;
+}
+
+section:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+/* TÍTULOS */
+h2{
+    font-size: 2rem;
+    margin: 1.2rem 0;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+/* PÁRRAFOS */
+p{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+/* LISTAS NORMALES (NO BOTONES) */
+section ul{
+    margin: 0.8rem 0 1rem 1.5rem;
+}
+
+section ul li{
+    font-size: 1.2rem;
+    padding: 4px 0;
+}
+
+/* 🔥 BOTONES SOLO NVIDIA E INTEL */
+.botones{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.botones li{
+    background-color: #f1f5f9;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: 1px solid rgb(159, 62, 42);
+    transition: all 0.3s ease;
+}
+
+/* Efecto hover general */
+.botones li:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+/* Colores oficiales al pasar el mouse */
+.botones li:nth-child(1):hover{
+    background: #76b900; /* Verde NVIDIA */
+    color: white;
+}
+
+.botones li:nth-child(2):hover{
+    background: #0071c5; /* Azul INTEL */
+    color: white;
+}
+
+/* ENLACES */
+a{
+    text-decoration: none;
+    color: #930505;
+    display: block;
+}
+footer{
+    width: 100%;
+    background: linear-gradient(135deg, #8b0000, #c94c4c);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+}
+
+.footer-contenido{
+    max-width: 900px;
+    margin: auto;
+}
+
+footer p{
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}

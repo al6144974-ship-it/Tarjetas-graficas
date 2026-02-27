@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgb(241, 173, 255);
+}
+
+header{
+    background: linear-gradient(135deg,#453445 0%, #764ba2 100%);
+    color: #dbdffa;
+    text-align: center;
+    padding: 4rem 1rem;
+    font-size: 4rem;
+}
+
+header h1{
+    font-size: 3.5rem;
+}
+
+.container{
+    max-width: 800px;
+    margin: 6rem auto;
+    padding: 0 2rem;
+}
+
+section{
+    background-color: rgb(194, 158, 219);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+
+section:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+section p{
+    background-color: rgb(201, 152, 231);
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.botones{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.botones li{
+    background-color: #f1f5f9;
+    padding: 1.2rem 2.5rem;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: 2px solid rgb(95, 52, 116);
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.botones li:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.botones li:nth-child(1):hover{
+    background: #76b900;
+    color: white;
+}
+
+.botones li:nth-child(2):hover{
+    background: #ed1c24;
+    color: white;
+}
+
+.botones li:nth-child(3):hover{
+    background: #0071c5;
+    color: white;
+}
+
+.botones li a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #e797ed;
+}
+
+footer{
+    width: 100%;
+    background: linear-gradient(135deg,#bf00c5,#7c00e8);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 60px;
+    font-size: 1.2rem;
+}
+
+.footer-contenido{
+    max-width: 900px;
+    margin: auto;
+}
+
+footer p{
+    margin: 8px 0;
+    background: none;
+}
